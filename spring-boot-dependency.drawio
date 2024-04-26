@@ -1,0 +1,93 @@
+<mxfile host="app.diagrams.net" modified="2024-04-26T13:53:33.670Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="YAeLO420hbRLLbGk8FwF" version="24.0.7" type="github">
+  <diagram name="Page-1" id="OH5eHPkuU3QYKSL_enHn">
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3MuUzV9hz37rs0OtJ95j-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" parent="1" source="3MuUzV9hz37rs0OtJ95j-5" target="3MuUzV9hz37rs0OtJ95j-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="390" />
+              <mxPoint x="320" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3MuUzV9hz37rs0OtJ95j-11" value="createOrder(Command) : Response" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="3MuUzV9hz37rs0OtJ95j-10" vertex="1" connectable="0">
+          <mxGeometry x="-0.1766" y="2" relative="1" as="geometry">
+            <mxPoint x="-14" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3MuUzV9hz37rs0OtJ95j-5" value="Application&lt;br&gt;Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="180" y="320" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="3MuUzV9hz37rs0OtJ95j-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" parent="1" source="3MuUzV9hz37rs0OtJ95j-9" target="3MuUzV9hz37rs0OtJ95j-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="410" />
+              <mxPoint x="500" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3MuUzV9hz37rs0OtJ95j-15" value=".createOrder(Command)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="3MuUzV9hz37rs0OtJ95j-13" vertex="1" connectable="0">
+          <mxGeometry x="-0.043" y="-1" relative="1" as="geometry">
+            <mxPoint x="-16" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3MuUzV9hz37rs0OtJ95j-9" value="CommandHandler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="360" y="320" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="3MuUzV9hz37rs0OtJ95j-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" parent="1" target="3MuUzV9hz37rs0OtJ95j-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="589.9285714285713" y="423" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3MuUzV9hz37rs0OtJ95j-12" value="CommandHandler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="540" y="320" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="3MuUzV9hz37rs0OtJ95j-21" value="Validation Check:&lt;br&gt;Check if entities are present in Repository" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="710" y="393" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3MuUzV9hz37rs0OtJ95j-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" parent="1" target="3MuUzV9hz37rs0OtJ95j-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="589.9285714285713" y="500" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3MuUzV9hz37rs0OtJ95j-24" value="Mapping:&lt;br&gt;Command -&amp;gt; Entity" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="710" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3MuUzV9hz37rs0OtJ95j-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" parent="1" target="3MuUzV9hz37rs0OtJ95j-26" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="589.9285714285713" y="570" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3MuUzV9hz37rs0OtJ95j-26" value="Event:&lt;br&gt;Call Domain Service &lt;br&gt;-&amp;gt; Event" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="710" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3MuUzV9hz37rs0OtJ95j-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" parent="1" target="3MuUzV9hz37rs0OtJ95j-28" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="589.9285714285713" y="640" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3MuUzV9hz37rs0OtJ95j-28" value="DB Persist:&lt;br&gt;save to DB" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="710" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3MuUzV9hz37rs0OtJ95j-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" parent="1" target="3MuUzV9hz37rs0OtJ95j-30" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="589.9285714285713" y="720" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3MuUzV9hz37rs0OtJ95j-30" value="Fire Event:&lt;br&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="710" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3MuUzV9hz37rs0OtJ95j-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" parent="1" target="3MuUzV9hz37rs0OtJ95j-32" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="589.9285714285713" y="790" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3MuUzV9hz37rs0OtJ95j-32" value="Mapping:&lt;br&gt;Entity -&amp;gt; Response" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="710" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
